@@ -1,0 +1,12 @@
+jsonschema
+numpy
+pandas<2.0.0
+scikit-learn
+tqdm
+raiutils>=0.4.0
+
+[deeplearning]
+tensorflow>=1.13.1
+
+[deeplearning:python_version < "3.10"]
+torch
